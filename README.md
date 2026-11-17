@@ -1,8 +1,11 @@
-# BanditLab
+# Bayesian bandits
 
 Exact finite-budget Bayesian bandit planning from scratch. Independent Beta-Bernoulli arms, posterior-state Bellman backups, complete action values and ties, a fully updating greedy baseline, and an exact clairvoyant prior upper bound. Dependency-free Python 3.10+, strict JSON CLI and rational results.
 
 ![Exact expected reward over equal pull budgets, with a three-pull exploration witness](assets/bandit-audit.svg)
+
+The repository is now `bayesian-bandits`. The Python import and CLI names stay
+`banditlab` for compatibility with existing scripts.
 
 ## A lower current mean can be the better first choice
 
